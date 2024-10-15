@@ -1,0 +1,6 @@
+services:
+  cli_and_migrations:
+    build:
+      context: .
+      dockerfile: CliAndMigrationsDockerfile
+    container_name: webentities_monitor
